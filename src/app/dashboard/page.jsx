@@ -120,14 +120,14 @@ function DashboardPage() {
             let tempLabels = [];
             tempData.map((data) => {
               tempValues.push(data.value);
-              tempLabels.push(data.date);
+              tempLabels.push(data.time);
             });
             let humidityData = plant.humidity_data;
             let humidityValues = [];
             let humidityLabels = [];
             humidityData.map((data) => {
               humidityValues.push(data.value);
-              humidityLabels.push(data.date);
+              humidityLabels.push(data.time);
             });
             let lightData = plant.light_data;
             let lightValues = [];
