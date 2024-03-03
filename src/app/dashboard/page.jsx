@@ -134,14 +134,14 @@ function DashboardPage() {
             let lightLabels = [];
             lightData.map((data) => {
               lightValues.push(data.value);
-              lightLabels.push(data.date);
+              lightLabels.push(data.time);
             });
             let soilMoistureData = plant.soil_moisture_data;
             let soilMoistureValues = [];
             let soilMoistureLabels = [];
             soilMoistureData.map((data) => {
               soilMoistureValues.push(data.value);
-              soilMoistureLabels.push(data.date);
+              soilMoistureLabels.push(data.time);
             });
 
 
