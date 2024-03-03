@@ -21,6 +21,7 @@ export default function DataChart(props) {
     ChartJS.register(LinearScale);
     ChartJS.register(PointElement);
     ChartJS.register(LineElement);
+    ChartJS.register(LineController);
 
     // Define chart options
     const options = {
